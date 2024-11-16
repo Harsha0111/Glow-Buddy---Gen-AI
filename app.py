@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 
-GROQ_API_KEY = st.secrets("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 chat_model = ChatGroq(
     model="llama3-8b-8192",
